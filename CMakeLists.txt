@@ -478,3 +478,5 @@ endif()
 
 set(CLANG_ORDER_FILE "" CACHE FILEPATH
   "Order file to use when compiling clang in order to improve startup time.")
+
+add_subdirectory(eq_c_inspector)
